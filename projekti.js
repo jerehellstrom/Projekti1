@@ -34,7 +34,7 @@ http.createServer(function (request, response) {
     
     console.log('HTML now Running at Port 3000');
 
-  })
+  })app.listen(process.env.port || 3000);
 
   // Console will print the message - Will attempt to fix the port thing if i have time
   console.log('Server running at http://127.0.0.1:8081/ - Go to port 8081 in the browser if you do not get port 3000 message in command prompt');
