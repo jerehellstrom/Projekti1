@@ -2,7 +2,7 @@
     const app = express();
     const path = require('path');
     const router = express.Router();
-    const port = 3000;
+    const port = 8080;
     
     router.get('/',function(req,res){
       res.sendFile(path.join(__dirname+'/index.html'));
@@ -24,6 +24,6 @@
     //add the router
     app.use('/', router);
     app.use(express.static('public'));
-    app.listen(process.env.port || 3000);
+    app.listen(process.env.port || 8080);
     
-    console.log('HTML now Running at Port 3000');
+    console.log('HTML now Running at Port 8080');
