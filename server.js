@@ -23,6 +23,6 @@
     //add the router
     app.use('/', router);
     app.use(express.static('public'));
-    app.listen(process.env.port || 8080);
+    app.listen(process.env.PORT || 8080);
     
     console.log('HTML now Running at Port 8080');
