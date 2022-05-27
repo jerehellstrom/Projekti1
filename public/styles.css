@@ -221,7 +221,7 @@ a:hover, a:active {
 
 
 .container{
-background-image: url("wood.jpg");
+background-color: #299479;
 background-repeat: no-repeat;
 background-size: cover;
 }
@@ -327,4 +327,30 @@ label {
 
 .label {
 	color: white;
+}
+
+.col-sm {
+  border: 3px solid black;
+}
+
+.nav-link{
+  border: 3px solid black;
+}
+
+.table {
+  border: solid 3px black;
+  text-align: center;
+
+
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: block;
 }
